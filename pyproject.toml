@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "coding_projects"
+version = "0.1.0"
+description = "A data engineering project"
+authors = ["francis rodrigues <francis.n.rodrigues@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[tool.poetry.extras]
+jupyter = ["jupyter"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
